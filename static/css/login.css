@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    width:100%;
+    /* min-height: 100%; */
+    margin: 0px;
+    /* overflow: hidden; */
+    /* padding-bottom: 20px; */
+    padding-bottom: 0px;
+  }
+
+
+body{
+    background-color: #343a40;
+}  
+
+.overallbdy{
+    background-color: #343a40
+  }
+
+div.container{
+    /* margin-top:50%; */
+    position:relative;
+    top:50%;
+    width:30%;
+    height:20%;
+    background-color: #c6cbef;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    padding-top: 2%;
+}

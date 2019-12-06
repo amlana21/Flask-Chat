@@ -1,0 +1,243 @@
+/* div.messagesection{
+    position: relative;
+    top:50px;
+    left:210px;
+    margin-left:50px;
+    margin-top:50px;
+    /* display: flex;
+  flex-direction: column; 
+} */
+* {
+  margin: 0;
+  padding: 0;
+}
+div.listsection div.lists #msgtbl{
+    position: absolute;
+    top:80px;
+    left:50px;
+}
+
+div.sidebar{
+  background-color: #343a40;
+  width:15%;
+  height:100%;
+  margin:0;
+  font-family: 'Kalam', cursive;
+  /* margin-bottom: 0; */
+  /* margin-right: 30px; */
+}
+
+html, body {
+  height: 100%;
+  width:100%;
+  /* min-height: 100%; */
+  margin: 0px;
+  /* overflow: hidden; */
+  /* padding-bottom: 20px; */
+  padding-bottom: 0px;
+}
+
+table.tablepos{
+  position: relative;
+  /* top:100px; */
+  width: 100%;
+  /* height: 100%; */
+  /* overflow: auto; */
+  /* height:10px */
+  /* background-color: chartreuse; */
+}
+
+div.sidewrap{
+  height: 250px;
+  overflow: auto;
+  position: relative;
+  top:100px;
+  width: 100%;
+}
+
+div.sidemsgwrap{
+  height: 200px;
+  overflow: auto;
+  position: relative;
+  top:210px;
+  width: 100%;
+}
+
+table.directpos{
+  position:relative;
+  /* top:400px; */
+  width: 100%;
+  /* background-color: chartreuse; */
+}
+
+div.container{
+  position:absolute;
+  top:0px;
+  left:14%;
+  width:86%;
+  margin-left:0px;
+  margin-right: 0px;
+  max-width: 86.5%;
+  padding-right: 0%;
+  height:100%
+}
+
+div.txtarea{
+  position:absolute;
+  /* top:91.4%; */
+  /* bottom:0px;
+  margin-bottom:0px; */
+  /* margin-top:49.5%; */
+  /* left:8%; */
+  width:94%;
+  margin-left:0px;
+  margin-right: 0px;
+  max-width: 100%;
+  padding-right: 0%;
+  border-width: 10px;
+  border-color: red;
+  bottom: 0;
+}
+
+div.txtarea textarea.chattxt{
+  position: absolute;
+  width:90%;
+  top:100%;
+  /* line-height: 1; */
+  /* padding-right: 100px; */
+}
+
+/*@-moz-document url-prefix() {
+  div.txtarea textarea.chattxt{
+    /* position: absolute;
+    width:90%;
+    top:88%; */
+    /* line-height: 1; */
+    /* padding-right: 100px; */
+  /* } */
+
+div.txtarea button.chatbtn{
+  position: absolute;
+  left:91.5%;
+  height:60px;
+  /* width:158px; */
+  background-color: #343a40;
+  top:91%
+
+}
+div.txtarea textarea.chat1{
+  /* position: absolute; */
+  width:90%;
+  /* top:100%; */
+  /* line-height: 1; */
+  /* padding-right: 100px; */
+}
+
+div.txtarea button.btn1{
+  /* position: absolute; */
+  /* left:91.5%; */
+  height:60px;
+  /* width:158px; */
+  background-color: #343a40;
+  /* top:91% */
+
+}
+
+#crtchnl{
+  background-color: #343a40;
+}
+/* div.messagesection{
+  width:100%;
+  bottom:10%
+} */
+
+div.messagesection{
+  position:absolute;
+  /* top:91.4%; */
+  /* bottom:0px;
+  margin-bottom:0px; */
+  /* margin-top:49.5%; */
+  /* left:8%; */
+  width:94%;
+  margin-left:0px;
+  margin-right: 0px;
+  max-width: 100%;
+  padding-right: 0%;
+  border-width: 10px;
+  border-color: red;
+  bottom: 10%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+ 
+}
+
+div.messagesection table.tblmsglist{
+  position:relative;
+  bottom:0;
+  top:80%
+}
+
+div.messagesection div.custom-scrollbar{
+  position: relative;
+  height: 500px;
+  overflow: auto;
+}
+
+
+
+.clicked{
+  background-color: #5f6769;
+}
+
+.sentalert{
+  background-color: #14868c;
+}
+
+
+
+
+/* div.messagesection div.table-wrapper-scroll-y{
+  display: block;
+} */
+
+/* div.messagesection div.custom-scrollbar {
+  /* position: relative; */
+  /* height: 100px;
+  overflow: auto;
+  } */ 
+
+/* hr{
+  width:20%;
+  display:inline-block;
+} */
+
+
+
+
+
+
+  /* .table-wrapper-scroll-y {
+  display: block;
+  } */
+
+/* form {
+    width: 500px;
+    overflow: hidden;
+    background-color: yellow;
+}
+input {
+    width: 100%;
+}
+span {
+    display: block;
+    overflow: hidden;
+    padding-right:10px;
+}
+button {
+    float: right;
+}
+
+<form method="post">
+     <button>Search</button>
+     <span><input type="text" title="Search" /></span>
+</form>*/
